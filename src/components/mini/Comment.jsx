@@ -31,8 +31,8 @@ const Comment = (props) => {
         <div className="text-[#96A2AF] font-lexend text-[24px] font-extralight">
           {props.Content}
         </div>
-        <p className="text-[#01575C] text-center font-syne text-[72px] font-semibold leading-[80%] tracking-[1.152px]">
-          "
+        <p className="text-[#01575C] text-center font-syne text-[72px] font-semibold leading-[120%] tracking-[1.152px]">
+        “
         </p>
       </div>
     </div>

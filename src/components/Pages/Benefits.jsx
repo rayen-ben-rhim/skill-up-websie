@@ -21,9 +21,14 @@ export default function BenefitsSection() {
 
           <div className="space-y-4">
             <div className="bg-[#2A5C6B] text-white p-6 rounded-xl">
-              <div className="flex items-center gap-2 mb-3">
-                <RotateCw className="w-5 h-5" />
-                <h3 className="font-medium">Up-To-Date Content</h3>
+              <div className="flex justify-between items-center pb-3">
+                <div className="flex items-center gap-2 mb-3">
+                  <Image src='/benefits/refresh-2.svg' width={30} height={30} alt="sent" />
+                  <h3 className="font-medium">Up-To-Date Content</h3>
+                </div>
+                <div className=" cursor-pointer">
+                <Image src='/div.button-icon.svg' width={50} height={50} alt="sent" />
+                </div>
               </div>
               <p className="text-gray-200 text-sm">
                 Lorem ipsum dolor sit amet consectetur. Montes risus cras ullamcorper dolor amet proin aliquam orci.
@@ -33,14 +38,14 @@ export default function BenefitsSection() {
 
             <div className="border rounded-full p-4">
               <div className="flex items-center gap-3">
-                <Clock className="w-5 h-5 text-gray-600" />
+              <Image src='/benefits/dollar-circle.svg' width={30} height={30} alt="sent" />
                 <span className="font-medium">Tracking And Analytics</span>
               </div>
             </div>
 
             <div className="border rounded-full p-4">
               <div className="flex items-center gap-3">
-                <DollarSign className="w-5 h-5 text-gray-600" />
+              <Image src='/benefits/graph.svg' width={30} height={30} alt="sent" />
                 <span className="font-medium">Cost-Efficiency</span>
               </div>
             </div>

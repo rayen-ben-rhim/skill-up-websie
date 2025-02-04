@@ -115,6 +115,38 @@ const Footer = () => {
                 </ul>
               </div>
 
+              <div className="pr-2">
+                <h3 className="text-xl font-semibold text-white mb-4">
+                  Help and Solution
+                </h3>
+                <ul className="space-y-3">
+                  <li>
+                    <a
+                      href="#"
+                      className="text-[#FFFFFFA6] hover:text-[#FFFFFFA6]"
+                    >
+                      Product Help Centre
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      className="text-[#FFFFFFA6] hover:text-[#FFFFFFA6]"
+                    >
+                      Talk to Support
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      className="text-[#FFFFFFA6] hover:text-[#FFFFFFA6]"
+                    >
+                      Support Docs
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
               {/* About and Security Section */}
               <div className="pr-2">
                 <h3 className="text-xl font-semibold text-white mb-4">About</h3>

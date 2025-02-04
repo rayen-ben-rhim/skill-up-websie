@@ -4,34 +4,40 @@ import { Card } from "@/components/ui/card";
 import Image from "next/image";
 import Bannerd from "./mini/Bannerd";
 
+import "./index.css";
+
 export default function AboutSection() {
   return (
     <section className="container mx-auto px-4 py-12 ">
       <div className="grid gap-8 lg:grid-cols-2 lg:gap-12 items-center">
         {/* Left Column - Profile Card */}
         <div className="relative">
-          <div className="relative aspect-[3/4] w-full max-w-md mx-auto">
+          <div
+            className="relative aspect-[3/4] w-full max-w-md mx-auto"
+            id="image-id"
+          >
             <Image
+              id="image-id"
               src="/men.png"
               alt="Mentor profile"
               fill
               className="object-cover rounded-3xl"
             />
             {/* Telegram Icon */}
-            <div className="absolute right-4 top-4 bg-teal-700 p-3 rounded-full">
-              <Send className="w-6 h-6 text-white" />
+            <div className="absolute right-4 top-4 bg-teal-700 p-3 rounded-full z-20">
+            <Image src='/C/send-2.svg' width={30} height={30} alt="sent" />
             </div>
             {/* Profile Info Card */}
-            <Card className="absolute bottom-6 left-6 right-6 bg-black/40 backdrop-blur-md text-white p-4 rounded-2xl border-0">
+            <Card className="absolute bottom-6 left-6 right-6 bg-black/40 backdrop-blur-md text-white p-4 rounded-2xl border-0 z-10">
               <div className="flex items-center gap-3">
                 <div className="bg-[#E2F769] p-3 rounded-full">
-                  <div className="w-6 h-6 bg-gray-600 rounded-full" />
+                <Image src='/C/frame.svg' width={30} height={30} alt="sent" />
                 </div>
                 <div className="flex-1">
                   <div className="flex items-center gap-2">
                     <h3 className="text-xl">Jakob Philips</h3>
-                    <span className="bg-red-500 w-6 h-4 rounded flex items-center justify-center">
-                      <span className="text-white text-xs">+</span>
+                    <span className=" rounded-sm">
+                    <Image src='/C/flag.svg' width={30} height={30} alt="sent" className=" rounded-sm" />
                     </span>
                   </div>
                   <div className="flex gap-4 text-sm text-gray-200 mt-1">

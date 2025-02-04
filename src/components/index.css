@@ -1,0 +1,29 @@
+#image-id {
+  position: relative;
+
+  z-index: 10;
+}
+
+#image-id::after {
+  background-color: #B4D1D1;
+  content: "";
+  position: absolute;
+  width: 90%;
+  height: 90px;
+  top: -18px;
+  border-radius: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#image-id::before {
+  background-color: #5D89891A;
+  content: "";
+  position: absolute;
+  width: 65%;
+  height: 80px;
+  top: -30px;
+  border-radius: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
